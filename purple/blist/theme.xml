@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme type="pidgin buddy list" 
+        name="DarkChopps"
+        author="Christian Hopps">
+        <!-- image="Example_theme_logo.png"-->
+        <description>
+                Dark buddy list theme
+	</description>
+        <blist background="#1e1e1e"/>
+        <groups>
+                <expanded background="#1e1e1e" color="yellow" font="DejaVu Sans 10"/>
+                <collapsed background="black" color="yellow" font="DejaVu Sans 10"/>
+	</groups>
+        <buddys>
+		<placement status_icon="0" 
+			   name="1" 
+			   emblem="2" 
+			   protocol_icon="3"
+			   buddy_icon="4" 
+			   show_status="1"
+                />
+
+                <background color="#2e2e2e"/>
+                <contact_text font="DejaVu Sans 9" color="#FFDFBF"/>
+                <online_text font="" color="#FFDFBF"/>
+                <away_text font="" color="#DDAAAA"/>
+                <offline_text font="" color="#000000"/>
+                <idle_text font="" color="#DDBD9D"/>
+                <message_text font="DejaVu Sans Bold 9" background="#DD0000" color="#FFFFFF"/>
+                <message_nick_said_text font="DejaVu Sans Bold 9" background="#DD0000" color="#FFFFFF"/>
+                <status_text font="DejaVu Sans Italic 7" color="#DDDDDD"/>
+	</buddys>
+</theme>
